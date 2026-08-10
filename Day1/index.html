@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day1</title>
+</head>
+
+<body>
+    <!-- Here the headings about me-->
+    <h1>Omar Hussien Mousa</h1>
+    <h2>Front-End Developer</h2>
+    <h3>Personal Information</h3>
+    <!-- Here the paragraph about me too 😂 -->
+    <p>Hello, I am Omar. I am 23 years old. I work as a Front-End Developer using React as a base framework. I like
+        programming, listening to music, and playing videogames.</p>
+    <!-- My goals -->
+    <p>My goals: </p>
+    <ol>
+        <li>Work at Huawei</li>
+        <li>Work at Google</li>
+        <li>Work at StarLink</li>
+    </ol>
+    <!-- My hobbies -->
+    <p>My hobbies:</p>
+    <ul>
+        <li>Programming</li>
+        <li>Listening to music</li>
+        <li>Playing videogames</li>
+    </ul>
+    <!-- Favorite Site & formatting tags -->
+    <a href="https://anime4u.org/category/crunchyroll/">Watch Anime</a>
+    <p>Lorem, ipsum dolor sit amet <b>consectetur</b> <i>adipisicing</i> elit. Ipsa, aperiam earum? Nemo.</p>
+    <p>Lorem, ipsum dolor sit amet <b>consectetur</b> <b><i>adipisicing</i></b> elit. Ipsa, aperiam earum? Nemo.</p>
+
+    <!-- Quotes and Blockquotes -->
+    <p>A favorite quote of mine is: <q>The best way to predict the future is to invent it.</q> - Alan Kay</p>
+    <p>https://apnews.com/:
+    <blockquote cite="https://apnews.com/">
+        <p>Wildfires force 20,000 to flee as British Columbia declares state of emergency</p>
+        <p>MORE COVERAGE
+            Pilots of helicopter that crashed while fighting wildfire in Utah are dead, officials say 1 MIN READ
+            Lake Mead hits historic low water level as Colorado River struggles 3 MIN READ 112 A pillar of environmental
+            enforcement is targeted by Trump and Musk's AI company</p>
+    </blockquote>
+    </p>
+    <!-- Form with fieldset and inputs with new attributes for as linking the label
+        to the input and input must have name and id for the unique -->
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <button type="submit">submit</button>
+        </fieldset>
+    </form>
+    <br>
+    <!-- Images, Videos, and Audio with width and height attributes to control their sizes because the default is too large.
+        muted for muting the audio/video on render.
+        And controls to display the video and audio controls -->
+    <img src="https://imgs.search.brave.com/loK_gBLKn_sf7Ly0B-vZd899dwChEvH7CmVDXSFOYtc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vb1p1emMv/TUFFZHZPb1p1emMv/MS90bC9jYW52YS10/d28tY2F0cy1jdWRk/bGVkLXVwLXRvZ2V0/aGVyLU1BRWR2T29a/dXpjLmpwZw"
+        alt="cat" width="300" height="300">
+    <video src="./videos/dog.mp4" controls muted width="300" height="300"></video>
+    <br>
+    <audio src="./audios/peace.mp3" controls></audio>
+</body>
+
+</html>
