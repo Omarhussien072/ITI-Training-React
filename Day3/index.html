@@ -4,11 +4,207 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML Recap & Advanced">
+    <link rel="icon" href="">
     <title>Day 3</title>
 </head>
 
 <body>
+    <header>
+        <p>Personal website</p>
+        <nav class="nav-bar">
+            <a href="#hero">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#courses">Courses</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Omar hussien</h1>
+            <p>Hi there My name is omar hussien mousa. I am a <span>Front-End Developer</span> using <mark>React</mark> framework. Graduated from NCTU</p>
+            <img src="./assets/images/image.png" alt="default photo" width="200">
+            <br>
+            <a href="https://www.britannica.com/animal/cat" id="cats-link" target="_blank">Wanna see <b>Cats?</b></a>
+        </section>
+        <hr>
+        <section id="skills">
+            <p>My Hoppies</p>
+            <ul>
+                <li>Coding</li>
+                <li>Drawing</li>
+                <li>Playing Video Games</li>
+            </ul>
 
+            <p>My <strong>Tech Skills: </strong></p>
+            <br>
+            <ol type="I">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ol>
+
+        </section>
+        <br>
+        <section id="courses">
+            <table border="1">
+                <caption>My Courses</caption>
+                <thead>
+                    <tr>
+                        <th width="200">Course Name</th>
+                        <th width="200">Course Time</th>
+                        <th width="200">Course state</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            React
+                        </td>
+                        <td>
+                            140hr
+                        </td>
+                        <td>
+                            Active
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total Score</td>
+                        <td>100</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <section id="gallery"> 
+                <p>Gallery: </p>
+                <figure>
+                    <img src="./assets/images/tree.png" alt="tree">
+                    <figcaption>An image of a tree</figcaption>
+                    <img src="./assets/images/temple.png" alt="temple">
+                    <figcaption>An image of a temple</figcaption>
+                    <img src="./assets/images/nature.png" alt="nature">
+                    <figcaption>An image of nature</figcaption>
+                </figure>
+            </section>
+            <br>
+            <section id="contact">
+                <form action="#">
+                    <fieldset>
+                        <legend>Contact Form</legend>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <label for="name">Name: </label>
+                                    </td>
+                                    <td><input type="text" name="name" id="name" required></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="email">Email: </label>
+                                    </td>
+                                    <td>
+                                        <input type="email" name="email" id="email" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="tel">Tel:</label>
+                                    </td>
+                                    <td>
+                                        <input type="tel" name="tel" id="tel" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="birth-date">Birth Date: </label>
+                                    </td>
+                                    <td>
+                                        <input type="date" name="birth-date" id="birth-date" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="message">Message:</label>
+                                    </td>
+                                    <td>
+                                        <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="context">Context: </label>
+                                    </td>
+                                    <td>
+                                        <select name="context" id="context">
+                                            <option value="front-end job">Front-End Job</option>
+                                            <option value="design a website">Design a website</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="name">Contact Way:</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="radio" name="contact-way" id="email-contact">
+                                        <label for="email-contact">Email</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="contact-way" id="phone-contact">
+                                        <label for="phone-contact">Phone</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="policies" id="policies" required>
+                                        <label for="policies"><strong>I Agree to Privacy Policy</strong></label>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </fieldset>
+                </form>
+            </section>
+        </section>
+        <br>
+        <section id="faq">
+            <details>
+                <summary>What's the right time to start something?</summary>
+                <p>
+                    The answer is now! because you don't know if you'll live to see tomorrow's light
+                </p>
+            </details>
+            <details>
+                <summary>What's 2 + 2 ?</summary>
+                <p>
+                    The answer is 4 <b>Bravo!</b>
+                </p>
+            </details>
+            <details>
+                <summary>If you got 6 apples and your mom got 2 , day got 2 and sister got 2 how many do you have ?</summary>
+                <p>
+                    The answer is None <q><em>Sorry Little Boy</em></q>
+                </p>
+            </details>
+        </section>
+        <hr>
+        <section id="media">
+            <video src="./videos/dog.mp4" controls width="400"></video>
+            <audio src="./audios/peace.mp3" controls></audio>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <address>6&nbsp;helwan street</address>
+        &copy; This site is copyrighted with license MIT
+        <p>Social Links: <a href="https://github.com/Omarhussien072" id="github-link" target="_blank">My Github</a></p>
+    </footer>
 </body>
 
 </html>
