@@ -1,0 +1,13 @@
+nav > a {
+    color: tomato;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    color: rgb(0, 192, 192);
+}
+
+.main-headings {
+    color: darkred;
+}
