@@ -1,21 +1,106 @@
 :root {
-    --main-color: #242323;
+    --main-color: #1a1a1a;
     --text-color: #fff;
+    --unique: #13e2b9;
     --special: gold;
 }
 
-.container {
+body {
     background-color: var(--main-color);
     color: var(--text-color);
-    text-align: center;
-    background-image: url('https://imgs.search.brave.com/bt-bCtiSddTj-SVp2ZCZpqFoxV7_3LuKMTWWCXdFyyo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/cmQuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIxLzA0L0dl/dHR5SW1hZ2VzLTEx/NTI4NjcyMTMtc2Nh/bGVkLmpwZw');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 50%;
-    height: 100%;
 }
 
-.container h1 {
-    color: var(--special)
+header #my-name {
+    color: var(--special);
 }
+
+/* This image is demonistrating the pirority of the css selectors */
+header img {
+    width: 50%;
+    height: 50%;
+}
+
+header img:hover {
+    width: 45%;
+    height: 45%;
+}
+
+header .front-end {
+    width: 45%;
+    height: 45%;
+}
+
+header .front-end:hover {
+    width: 40%;
+    height: 40%;
+}
+
+header #front-end {
+    width: 35%;
+    height: 35%;
+}
+
+header #front-end:hover {
+    width: 30%;
+    height: 30%;
+}
+
+/* ----------------------------- */
+
+.my-info {
+    color: var(--unique);
+    font-size: 1.5em;
+}
+
+#about {
+    width: 80%;
+    overflow: hidden;
+}
+
+
+#about > pre {
+    --special: rgb(138, 118, 4);
+    border: 1px solid var(--special);
+}
+
+#about > pre {
+    /* I used it here to forcibly change the border color instead of the --special */ 
+    /* Also this's not the how to use !important it will be used overriding the thirdparty framework styles*/ 
+    border: 1px solid green !important;
+    cursor: grab;
+}
+
+#skills {
+    width: 30vw;
+    height: 30vh;
+}
+
+form > fieldset > button {
+    cursor: pointer;
+}
+form {
+    min-width: 250px;
+    max-width: 500px;
+}
+input,
+textarea {
+    background-color: #2b2a2a;
+}
+
+
+footer p {
+    font-size: 2rem;
+    cursor: not-allowed;
+}
+
+/* 
+    ==============================  Demonstrate the use of background-color, image , etc ==============================
+    --> background-color: Give an element a color as a background.
+    --> background-image: image Give an element an image as a background.
+    --> background-repeat: if we give an element a background image and it was small and that element is big the image will repeat it self.
+    --> background-side: controls the size of the background image 
+    --> background-position: specifiy the position of the background image (left top, center top, right top, left center, center center, right center, left bottm, center bottom, right bottom).
+    --> background-attachment: specifiy if the background image will scroll with the rest of the site on scrolling or be fixed in place.
+    --> background (shorthand): is the same but collect all the above styles in one place background.
+    ====================================================================================================================
+*/
