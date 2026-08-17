@@ -1,0 +1,61 @@
+/*                      ========== Activity Styles ========== 
+.container {
+    background: rgba(187, 144, 1, 0.815);
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container img {
+    width: 25%;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 0, 0.250);
+    margin-bottom: 10px;
+}
+
+.container h1 {
+    color: rgba(235, 252, 3, 0.938);
+    font-size: 1.5em;
+}
+
+.container .quote {
+    margin: 12px 0;
+    color: #fff;
+}
+.container .quote q {
+    background-color: #5f4a44af;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container button { 
+    background-color: rgb(224, 193, 14);    
+    outline: none;
+    border: 2px solid gold;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.container button:hover {
+    background-color: gold;
+}                      ========== End Of Activity Styles ========== 
+*/
+
+.container > p {
+    color: rgb(0, 119, 255);
+    text-shadow: 0 0 10px rgb(0, 255, 221);
+    font-size: 3em;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    text-indent: 5px;
+    line-height: 100px;
+    white-space: nowrap;
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
