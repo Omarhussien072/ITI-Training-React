@@ -1,4 +1,4 @@
-/*                      ========== Activity Styles ========== 
+/*                      ========== Start Of Activity Styles ========== 
 .container {
     background: rgba(187, 144, 1, 0.815);
     width: 80%;
@@ -42,6 +42,7 @@
 }                      ========== End Of Activity Styles ========== 
 */
 
+/*                      ========== Start Of Activity Styles ========== 
 .container > p {
     color: rgb(0, 119, 255);
     text-shadow: 0 0 10px rgb(0, 255, 221);
@@ -58,4 +59,146 @@
     overflow: hidden;
     text-overflow: ellipsis;
 
+}                      ========== End Of Activity Styles ========== 
+*/
+
+@font-face {
+    font-family: "Slackside One Static";
+    src: url("../assets/fonts/SlacksideOne-Regular.ttf");
+    font-weight: 400;
+}
+
+:root {
+    --bg-color: #F0F4FC;
+    --text-color: #f0f4ff;
+    --card-bg: #181B2B;
+    --job-title: rgb(160, 176, 255);
+    --job-title-bg: rgba(110, 140, 255, 0.14);
+    --job-title-border: rgba(110, 140, 255, 0.28);
+    --divider-bg: rgba(255, 255, 255, 0.08);
+    --description-text: rgba(200, 210, 255, 0.65);
+    --btn-color: #b36eff;
+    --btn-hover-color: rgb(146, 89, 196);
+    --social-icon-border-bg: rgba(255, 255, 255, 0.08);
+    --social-icon-bg: rgba(255, 255, 255, 0.05);
+    --social-icon-border-hover-bg: rgba(110, 140, 255, 0.35);
+    --social-icon-hover-bg: rgba(110, 140, 255, 0.18);
+    --social-icon-fill: rgba(180, 200, 255, 0.7);
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.container {
+    width: 80%;
+    color: var(--text-color);
+    margin: 48px auto;
+    text-align: center;
+
+}
+
+.container .card {
+    background-color: var(--card-bg);
+    padding: 25px;
+    width: 420px;
+    border-radius: 28px;
+    margin-left: 35%;
+    border: 2px solid rgba(255, 255, 255, 0.06);
+}
+
+.container .image-container {
+    margin-bottom: 20px;
+}
+
+.container .image-container>img {
+    width: 30%;
+    padding: 3px;
+    border-radius: 50%;
+    border: 3px solid #b36eff;
+}
+
+.container .info>h1 {
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--text-color);
+    font-family: 'Slackside One Static';
+    margin-bottom: 20px;
+}
+
+
+.container .info .job-title {
+    background-color: var(--job-title-bg);
+    color: var(--job-title);
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    padding: 4px 14px;
+    border: 1px solid var(--job-title-border);
+}
+
+.container .info .bio .divider {
+    background-color: var(--divider-bg);
+    width: 80%;
+    margin: 20px auto;
+    border: none;
+    border-top: 1px solid var(--divider-bg);
+}
+
+.container .info .description {
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+
+.container .info .description>p {
+    color: var(--description-text);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.container button {
+    width: 100%;
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    font-size: 1.2rem;
+    padding: 13px 0;
+    margin-bottom: 8px;
+    outline: none;
+    border: none;
+    border-radius: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: var(--btn-hover-color);
+    text-shadow: 0 0 15px var(--text-color), 0 0 20px var(--text-color), 0 0 25px var(--text-color);
+}
+
+.container .socials a svg,
+.container .socials a {
+    width: 24px;
+    height: 24px;
+}
+
+.container .socials {
+    padding: 12px;
+}
+.container .socials a {
+    text-decoration: none;
+    color: var(--social-icon-fill);
+    background-color: var(--social-icon-bg);
+    margin: 0 6px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--social-icon-border-bg);
+}
+
+.container .socials a:hover {
+    background-color: var(--social-icon-hover-bg);
+    border: 1px solid var(--social-icon-border-hover-bg)
 }
