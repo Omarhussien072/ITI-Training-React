@@ -1,3 +1,4 @@
+/*                      ========== Start Of Activity Styles ========== 
 .container {
     height: 100vh;
     position: relative;
@@ -36,4 +37,274 @@
     position: fixed;
     bottom: 50px;
     right: 0;
+    }
+
+.container .square {
+        background-color: lightblue;
+        width: 20%;
+        position: relative;
+        top: 50%;
+        padding: 50px;
+        margin: 0 auto;
+        transition: all 0.5s linear;
+}
+
+.container .square:hover {
+        width: 30%;
+        background-color: blue;
+        border-radius: 20px;
+}                       ========== End Of Activity Styles ========== 
+*/
+
+/*                      ========== Start Of Flexbox Activity Styles ========== 
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: blueviolet;
+    color: whitesmoke;
+    padding: 25px;
+    border-radius: 25px;
+    gap: 10px;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 50%;
+}                       ========== End Of Flexbox Activity Styles ========== 
+*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main header .container .header-content {
+    display: flex;
+    position: fixed;
+    width: inherit;
+    justify-content: space-between;
+    padding: 2em 0;
+}
+
+main header .container .header-content .logo a img {
+    width: 50%;
+}
+
+main header .container .header-content nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.2em;
+    list-style: none;
+}
+
+main header .container .header-content nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main header .container .header-content nav ul li a {
+    height: 100%;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 0.1s ease-in;
+}
+
+main header .container .header-content nav ul li a:hover {
+    color: #9D6F4E;
+}
+
+main .hero {
+    background-image: url('../assets/images/background.jpg');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .hero .side-btns {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #5C5C5C;
+    position: fixed;
+    top: 20%;
+    right: 0;
+
+}
+
+main .hero .side-btns .settings-btn,
+.shop-btn {
+    background-color: #fff;
+    color: #5C5C5C;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+main .hero .side-btns .settings-btn:hover,
+.shop-btn:hover {
+    background-color: #5C5C5C;
+    color: #fff
+}
+
+main .hero .hero-content {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: whitesmoke;
+}
+
+main .hero .hero-content h1 {
+    font-family: "Roboto Slab", serif;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 2.2em;
+    letter-spacing: 1.7px;
+}
+
+main .hero .hero-content p {
+    color: rgba(245, 245, 245, 0.822);
+    width: 35%;
+    text-align: center;
+}
+
+main .hero .hero-content .btns {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+}
+
+main .hero .hero-content .btns button {
+    padding: 10px 15px;
+    color: whitesmoke;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-out;
+}
+
+main .hero .hero-content .btns .learn-btn {
+    background-color: #8A7557;
+}
+
+main .hero .hero-content .btns .learn-btn:hover {
+    box-shadow: 0 0 5px 2px #ad936e, 0 0 8px 4px #bda078;
+    text-shadow: 0 0 5px #ffffff;
+}
+
+main .hero .hero-content .btns .contact-btn {
+    border: 1px solid whitesmoke;
+}
+
+main .hero .hero-content .btns .contact-btn:hover {
+    box-shadow: 0 0 5px 2px whitesmoke, 0 0 8px 4px white;
+    text-shadow: 0 0 5px #ffffff;
+}
+
+main .hero .hero-content .scrolling-figure {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 4.5em;
+    width: 30px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 25px;
+    background: transparent;
+    border: 1px solid #ffffffa8;
+}
+
+main .hero .hero-content .scrolling-figure .circle {
+    position: relative;
+    width: 7.5px;
+    height: 7.5px;
+    border-radius: 50%;
+    background-color: #ffffffa8;
+    top: 10px;
+}
+
+.who-we-are {
+    margin: 48px 0;
+}
+
+.who-we-are .container .who-we-are-content {
+    display: flex;
+    gap: 5%;
+}
+
+.who-we-are .container .who-we-are-content .item {
+    width: 47.5%;
+}
+
+.who-we-are .container .who-we-are-content .img-container img {
+    width: 100%;
+}
+
+.who-we-are .container .who-we-are-content .who-we-are-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.who-we-are .container .who-we-are-content .who-we-are-info h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+.who-we-are .container .who-we-are-content .who-we-are-info p {
+    width: 80%;
+    line-height: 2;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.who-we-are .container .who-we-are-content .who-we-are-info .our-achievements {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.who-we-are .container .who-we-are-content .who-we-are-info .our-achievements .achievement {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.who-we-are .container .who-we-are-content .who-we-are-info .our-achievements .achievement p,
+.icon {
+    color: #7B6E5A;
+}
+
+.who-we-are .container .who-we-are-content .who-we-are-info .our-achievements .achievement .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #7b6e5a7c;
+    box-shadow: 0 0 5px 1px #7b6e5a7c;
+    width: 35px;
+    height: 35px;
 }
