@@ -1,0 +1,39 @@
+.container {
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: azure;
+}
+
+.container header {
+    background-color: lightcoral;
+    width: 100%;
+    height: 40px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.container .square-element {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+.container .floatingBtn {
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+}
