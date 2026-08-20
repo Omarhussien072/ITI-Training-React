@@ -1,5 +1,41 @@
 /*                      ========== Start Of Activity Styles ========== 
 
-/*                      ========== Start Of Flexbox Activity Styles ========== 
 
 
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 12px;
+}
+
+.container header {
+    background-color: rgb(12, 114, 114);
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+
+.container .pet-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.container .pet-cards-container .pet-card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 25%;
+}
+
+.container .pet-cards-container .pet-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+                        ========== Start Of Flexbox Activity Styles ========== 
+*/
