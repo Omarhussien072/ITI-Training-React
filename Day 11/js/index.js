@@ -27,15 +27,16 @@ if ((user1_choice === 'rock' && user2_choice === 'sissor') ||
 }
 
 // Task2
+var grade = 100;
 
-if (grade >= 90){
+if (grade >= 90) {
     console.log(`Excellent`);
-}else if (grade >= 80 && grade < 90){
+} else if (grade >= 80 && grade < 90) {
     console.log(`Good`);
-}else if (grade >= 70 && grade < 80){
+} else if (grade >= 70 && grade < 80) {
     console.log(`Average`);
-}else if (grade >= 60 && grade < 70){
+} else if (grade >= 60 && grade < 70) {
     console.log(`Pass`);
-}else {
+} else {
     console.log('Fail');
 }
