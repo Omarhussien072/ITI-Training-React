@@ -1,0 +1,108 @@
+/*                      ========== Start Of Activity Styles ========== 
+@media only screen and (max-width: 576px) {
+    .container .pet-cards-container {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .container .pet-cards-container .pet-card {
+        width: 50%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .container .pet-cards-container {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .container .pet-cards-container .pet-card {
+        width: 45%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .container .pet-cards-container .pet-card {
+        width: 40%;
+    }
+}                        ========== Start Of Flexbox Activity Styles ========== 
+*/
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    main header .container .header-content nav ul {
+        font-size: 0.9em;
+        gap: 13px;
+    }
+
+    main header .container .header-content .logo a img {
+        width: 40%;
+    }
+
+    main .hero .hero-content {
+        height: 70vh;
+        gap: 20px;
+    }
+
+    main .hero .hero-content h1 {
+        font-size: 1.8em;
+        letter-spacing: 1.5px;
+    }
+
+    main .hero .hero-content p {
+        width: 50%;
+    }
+
+    main .hero .hero-content .scrolling-figure {
+        top: 8.5em;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+    main header .container .header-content nav ul {
+        display: none;
+    }
+
+    main header .container .header-content nav .humburger-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main header .container .header-content .logo a img {
+        width: 35%;
+    }
+
+    main .hero .hero-content p {
+        width: 80%;
+    }
+
+    main .hero .hero-content .scrolling-figure {
+        top: 12.5em;
+    }
+
+    main .hero .hero-content {
+        height: 100vh;
+    }
+
+    .who-we-are .container .who-we-are-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .who-we-are .container .who-we-are-content .img-container {
+        width: 100%;
+    }
+
+    .who-we-are .container .who-we-are-content .who-we-are-info p {
+        width: 100%;
+        line-height: 1.5;
+    }
+
+    .who-we-are .container .who-we-are-content .who-we-are-info .our-achievements {
+        gap: 20px;
+    }
+
+}
