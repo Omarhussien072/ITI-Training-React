@@ -1,0 +1,75 @@
+:root {
+    --text-color: whitesmoke;
+    --bg-dark: #707070;
+    --bg-grey: rgb(148, 142, 142);
+    --text-green: #58bc82;
+}
+
+body {
+    background-color: rgb(225, 238, 234);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.container form {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bg-dark);
+    padding: 5em;
+    gap: 2.5em;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5px 2px var(--text-green);
+}
+
+.container form h1 {
+    color: var(--text-green);
+    text-shadow: 0 2px 5px var(--text-green);
+}
+
+.container form input {
+    width: 100%;
+    padding: 1rem 0.75rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: var(--bg-dark);
+    outline: 2px solid var(--bg-grey);
+    font-size: 1.1rem;
+}
+
+.container form input:focus {
+    outline: 2px solid var(--text-green)
+}
+
+.container form input,
+input::placeholder {
+    color: var(--text-color);
+    text-align: center;
+}
+
+.container form input[type='number']::-webkit-outer-spin-button,input[type='number']::-webkit-inner-spin-button {
+    display: none;
+}
+
+.container form .submit-btn {
+    padding: 1rem 0.75rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 3rem;
+    background-color: var(--bg-grey);
+    color: var(--text-color);
+    transition: 0.3s all;
+}
+
+.container form .submit-btn:hover {
+    background-color: var(--text-green);
+}
