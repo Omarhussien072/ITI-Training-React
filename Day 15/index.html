@@ -13,8 +13,21 @@
 </head>
 
 <body>
-    <main class="container">
-        
+    <main class="container vh-100">
+        <header class="py-3">
+            <div class="search-container d-flex flex-column align-items-center justify-content-center position-relative">
+                <input type="search" name="Search-Term" id="search-products" class="form-control search-input fs-5"
+                    placeholder="Search anything" autocomplete="off">
+                <ul class="list-group search-list rounded-1 p-2 border fs-5 hidden position-absolute top-100">
+
+                </ul>
+            </div>
+        </header>
+        <section class="p-5">
+            <div class="cards-container d-flex flex-wrap justify-content-center gap-4">
+            </div>
+        </section>
+
     </main>
     <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
