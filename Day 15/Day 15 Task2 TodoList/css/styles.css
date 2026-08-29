@@ -1,0 +1,79 @@
+:root {
+    --bg-color: #F5F6FA;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+main .to-do-container {
+    width: 25rem;
+    box-shadow: 0 0 10px 5px #0000001c;
+}
+
+main .to-do-container .to-do-header {
+    font-weight: 700 !important;
+    color: #000000cc;
+}
+
+main .to-do-container .to-do-footer {
+    max-height: 25vh;
+    overflow-x: auto;
+}
+
+main .to-do-container .to-do-footer .card {
+    border: none;
+    color: #3b3b3bd8;
+}
+
+main .to-do-container .to-do-footer .card:hover {
+    cursor: pointer;
+}
+
+
+main .to-do-container .to-do-footer .button {
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.2s all ease-out;
+}
+
+main .to-do-container .to-do-footer .hidden {
+    display: none;
+}
+
+main .to-do-container .to-do-footer .edit-btn:hover {
+    color: rgba(214, 154, 41, 0.87);
+}
+
+main .to-do-container .to-do-footer .delete-btn:hover {
+    color: rgba(214, 41, 41, 0.87);
+}
+
+main .to-do-container .to-do-footer .save-btn:hover {
+    color: rgba(47, 214, 41, 0.87);
+}
+
+main .to-do-container .to-do-footer .cards-container .card .card-body .task {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+main .to-do-container .to-do-footer .cards-container .card .card-body .edit {
+    color: #0b63e6;
+}
+
+main .to-do-container .to-do-footer .cards-container .card .card-body .task:focus {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+input::placeholder {
+    font-weight: 500 !important;
+    color: rgba(37, 37, 37, 0.719) !important;
+}
+
