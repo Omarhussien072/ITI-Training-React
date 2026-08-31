@@ -1,16 +1,32 @@
-# React + Vite
+# A simple task using 4 components (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project has 4 components (Home, Nav, Hero, Projects).
+***
 
-Currently, two official plugins are available:
+## Home
+***
+This is the main component where the small components put in place to create the final page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Nav
+***
 
-## React Compiler
+This is a navigation bar with usefull links, dropdown menus, and search-bar.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Hero
+***
 
-## Expanding the ESLint configuration
+This is the big section which user will see after the page is loaded is big picture with a text to show my self.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Projects
+***
+
+This is my projects section where i showcase my work.
+
+## Social-Link & Helper source
+***
+| Message |   | Link |
+| You can follow me on LinkedIn via |   | [LinkedIn] (https://www.linkedin.com/in/omar-husien-q421/ "LinkedIn") |
+| I used this site to create this simple README.md |   | [Medium] (https://medium.com/analytics-vidhya/how-to-create-a-readme-md-file-8fb2e8ce24e3 "Medium") |
+
+
+
