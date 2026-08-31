@@ -24,8 +24,8 @@ This is my projects section where i showcase my work.
 ## Social-Link & Helper source
 | Message | Link |
 | ------- | ---- |
-| You can follow me on LinkedIn via | [LinkedIn](https://www.linkedin.com/in/omar-husien-q421/ "LinkedIn") |
-| I used this site to create this simple README.md | [Medium](https://medium.com/analytics-vidhya/how-to-create-a-readme-md-file-8fb2e8ce24e3 "Medium") |
+| You can follow me on LinkedIn via | [LinkedIn](https://www.linkedin.com/in/omar-husien-q421/ "LinkedIn"){:target="_blank"} |
+| I used this site to create this simple README.md | [Medium](https://medium.com/analytics-vidhya/how-to-create-a-readme-md-file-8fb2e8ce24e3 "Medium"){:target="_blank"} |
 
 
 
