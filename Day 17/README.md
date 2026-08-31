@@ -22,17 +22,12 @@ This is the big section which user will see after the page is loaded is big pict
 This is my projects section where i showcase my work.
 
 ## Social-Link & Helper source
-| Message |   | Link |
-| ------- |   | ---- |
-| You can follow me on LinkedIn via |   | [LinkedIn] (https://www.linkedin.com/in/omar-husien-q421/ "LinkedIn") |
-| I used this site to create this simple README.md |   | [Medium] (https://medium.com/analytics-vidhya/how-to-create-a-readme-md-file-8fb2e8ce24e3 "Medium") |
+| Message | Link |
+| ------- | ---- |
+| You can follow me on LinkedIn via |   | [LinkedIn] (https://www.linkedin.com/in/omar-husien-q421/) |
+| I used this site to create this simple README.md |   | [Medium] (https://medium.com/analytics-vidhya/how-to-create-a-readme-md-file-8fb2e8ce24e3) |
 
 
-| Message    | Link |
-| -------- | ------- |
-| You can follow me on LinkedIn via  | [LinkedIn] (https://www.linkedin.com/in/omar-husien-q421/ "LinkedIn")    |
-| I used this site to create this simple README.md | [Medium] (https://medium.com/analytics-vidhya/how-to-create-a-readme-md-file-8fb2e8ce24e3 "Medium")    |
-| March    | $420    |
 
 
 
