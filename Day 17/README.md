@@ -28,10 +28,10 @@ This is my projects section where i showcase my work.
 | I used this site to create this simple README.md |   | [Medium] (https://medium.com/analytics-vidhya/how-to-create-a-readme-md-file-8fb2e8ce24e3 "Medium") |
 
 
-| Month    | Savings |
+| Message    | Link |
 | -------- | ------- |
-| January  | $250    |
-| February | $80     |
+| You can follow me on LinkedIn via  | [LinkedIn] (https://www.linkedin.com/in/omar-husien-q421/ "LinkedIn")    |
+| I used this site to create this simple README.md | [Medium] (https://medium.com/analytics-vidhya/how-to-create-a-readme-md-file-8fb2e8ce24e3 "Medium")    |
 | March    | $420    |
 
 
