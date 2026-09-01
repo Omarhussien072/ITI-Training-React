@@ -1,0 +1,18 @@
+.error404 {
+    width: 30rem !important;
+    top: -5rem !important;
+    right: 45rem !important;
+    z-index: 999;
+}
+
+.fancyguy {
+    width: 40rem;
+}
+
+.heading {
+    font-size: 3rem;
+    top: 5rem !important;
+    right: 35rem !important;
+    z-index: 999;
+    font-weight: bold;
+}
