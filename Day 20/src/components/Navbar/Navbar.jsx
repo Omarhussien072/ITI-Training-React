@@ -10,6 +10,8 @@ export default function Navbar() {
                     <li className="nav-item active d-flex gap-5 justify-content-center align-items-center">
                         <NavLink className={`nav-link p-2 text-white`} to='/home'>Home</NavLink>
                         <NavLink className={`nav-link p-2 text-white`} to='/pizza'>Pizza</NavLink>
+                        <NavLink className={`nav-link p-2 text-white`} to='/register'>Register</NavLink>
+                        <NavLink className={`nav-link p-2 text-white`} to='/products'>Products</NavLink>
                     </li>
                     </ul>
                 </div>
